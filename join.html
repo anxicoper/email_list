@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">	
+    <meta charset="UTF-8">
     <title>Thanks for joining</title>
-    <link rel="stylesheet" href="email_list.css">  
-</head>
+    <link rel="stylesheet" href="email_list.css">
+    <script src="join.js"></script> 
 
 <body>
     <main>
-        <h1>Thanks for joining our email list!</h1>       
+        <h1>Thanks for joining our email list!</h1>
+        <h1>Confirm your data:</h1>
+        <h4 id="firstName"></h4>
+        <h4 id="emailAddress"></h4>
+
+        <form id="confirm_form" name="confirm_form" action="confirmed.html" method="get">
+            <label>&nbsp;</label>
+            <input type="submit" id="confirmBtn" value="Confirm">
+        </form>        
     </main>
 </body>
 </html>
